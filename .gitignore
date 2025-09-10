@@ -1,0 +1,11 @@
+venv/
+runs/
+models/
+data/
+
+notes_.txt
+_LEGACY
+
+__pycache__/
+*/__pycache__/
+**/__pycache__/

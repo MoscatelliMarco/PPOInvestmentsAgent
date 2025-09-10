@@ -1,0 +1,27 @@
+{
+    "exp_name": "test",
+    
+    "asset_1": "GOOGL",
+    "asset_2": "MA",
+    "start_date": "2008-01-01",
+    "architecture_type": "LSTM",
+    "non_stationary_function": "log_returns",
+    "exclude_stationary": [],
+
+    "gaussian_noise": 0.1,
+    "uniform_noise": 0.1,
+    "normalization": "zscore",
+    "seqlength": 28,
+    "split_train": 0.8,
+    "split_validation": 0.1,
+    "minibatch_size": 64,
+    "learning_rate": 0.00025,
+    "weight_decay": 0,
+
+    "total_timesteps": 4000,
+    "num_envs": 2,
+    "num_steps": 256,
+    "n_runs": 50,
+    "eval_train_after_n_runs": 10,
+    "eval_val_after_n_runs": 2
+}
