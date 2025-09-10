@@ -1,3 +1,3 @@
-# Proximal-Policy Optimization Investment Agent
+# Proximal-Policy Optimization Investments Agent
 
 Made with ❤️ by Marco Moscatelli
